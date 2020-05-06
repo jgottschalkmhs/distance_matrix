@@ -6,10 +6,14 @@ combined = []
 count = 0
 
 for item in points:
+  # then = 0
   for item in points:
     code = points[count]+item
     combined.append(code)
+    
   count+=1
+  
+  
 
 combined.sort()
 
